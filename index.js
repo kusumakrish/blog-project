@@ -6,7 +6,7 @@ const detailsController = require("./router/data");
 //     res.send("home");
 // })
 
-app.use("/api",detailsController)
+app.use("/",detailsController)
 
 app.listen(process.env.PORT || 8080 ,function(){
     console.log("server running");
